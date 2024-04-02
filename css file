@@ -1,1 +1,76 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1a62aa; /* Light gray background */
+    color: #343a40; /* Dark gray text color */
+}
+
+/* Header styles */
+header {
+    background-color: #343a40; /* Dark gray header background */
+    color: #fff; /* White header text color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White navigation text color */
+    text-decoration: none;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff; /* White section background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #343a40; /* Dark gray heading color */
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40; /* Dark gray footer background */
+    color: #fff; /* White footer text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Date and Time styles */
+#datetime {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #333;
+    z-index: 999;
+}
